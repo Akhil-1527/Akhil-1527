@@ -17,15 +17,23 @@ Cloud Security Engineer with **3+ years securing AWS** across financial services
 
 AWS security architecture · IAM & privilege escalation · DevSecOps & CI/CD security · Threat hunting · Penetration testing
 
-### 🛠️ Featured Projects
+### 🛠️ Security Toolkit
 
-**[aws-iam-privesc-finder](https://github.com/Akhil-1527/aws-iam-privesc-finder)** — Static analyzer for AWS IAM privilege-escalation paths. 16 techniques mapped to MITRE ATT&CK, each with Sigma detection rules, remediation guidance, and a full test suite over mock policies.
+Small, auditable, dependency-light tools built across 2026 — most are standard library only.
 
-**[secretscan](https://github.com/Akhil-1527/secretscan)** — Dependency-free secrets scanner: named regex rules plus a Shannon-entropy pass, with redaction and CI-friendly exit codes. Drops into a pipeline or pre-commit hook.
+**AWS security**
 
-**[portscan](https://github.com/Akhil-1527/portscan)** — Threaded TCP connect scanner with banner grabbing and service detection. Standard library only. Phase 1 of an incremental network-tooling project.
+- **[aws-iam-privesc-finder](https://github.com/Akhil-1527/aws-iam-privesc-finder)** — Static analyzer for IAM privilege-escalation paths. 16 techniques mapped to MITRE ATT&CK, each with Sigma rules and a full test suite.
+- **[cloudtrail-hunter](https://github.com/Akhil-1527/cloudtrail-hunter)** — Threat-hunts CloudTrail logs: root usage, MFA-less logins, IAM tampering, log/defense evasion. MITRE-mapped.
+- **[sg-auditor](https://github.com/Akhil-1527/sg-auditor)** — Flags EC2 security groups open to the internet, ranked by how sensitive the exposed port is.
+- **[s3-auditor](https://github.com/Akhil-1527/s3-auditor)** — Checks S3 buckets for public ACLs/policies, Block Public Access gaps, and missing encryption.
 
-> `secretscan` keeps credentials out of the repo; `aws-iam-privesc-finder` checks what they could do if they ever leaked. Offense informs defense.
+**AppSec & network**
+
+- **[secretscan](https://github.com/Akhil-1527/secretscan)** — Secrets scanner: regex rules + Shannon entropy, redaction, CI-friendly exit codes.
+- **[portscan](https://github.com/Akhil-1527/portscan)** — Threaded TCP connect scanner with banner grabbing and service detection.
+
+> `secretscan` keeps credentials out of the repo; `aws-iam-privesc-finder` and `cloudtrail-hunter` check what they could do — and whether it happened. Offense informs defense.
 
 ### 🧰 Tech
 
