@@ -31,7 +31,3 @@ Small tools I built to go deeper on AWS and application security. Most use only 
 ### Certifications
 
 AWS Certified Solutions Architect, Associate · AWS Certified Developer, Associate
-
-### Contact
-
-devakhilch@gmail.com
