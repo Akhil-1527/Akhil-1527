@@ -17,6 +17,7 @@ I came to development through security (M.S. in Computer Science with a cyber se
 ### Open source
 
 - **[OWASP Java Encoder](https://github.com/OWASP/owasp-java-encoder/pull/155)** (merged): made the JavaScript encoders encode backtick and `$`, so their output is also safe inside template literals
+- **[OWASP Dependency-Track](https://github.com/DependencyTrack/dependency-track/pull/7467)** (merged): fixed OIDC team sync for identity providers that send groups as a bracketed list string, such as AWS Cognito
 - **[Kestra](https://github.com/kestra-io/kestra)**: adding unit tests for the UI design system
 
 ### Security side projects
